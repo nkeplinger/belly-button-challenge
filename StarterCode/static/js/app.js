@@ -3,7 +3,7 @@ const url= "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v
 // JSON DATA LOCATION "../samples.json"
 
 //STEP 1: READ IN DATA VIA D3
-d3.json('../samples.json').then(function(data) {
+d3.json('..data//samples.json').then(function(data) {
     console.log(data);
   });
 
@@ -13,7 +13,7 @@ d3.json('../samples.json').then(function(data) {
 
 // Create plots of data
 function makePlots(testSubjectID) {
-    data = d3.json(url).then(data => { 
+    data = d3.json('..data//samples.json').then(data => { 
         // get all three data for flot from sameles key in json (sample_values(in desc order), otu_ids, and otu,ladels) 
         var samples = data.samples
         //filter sample by test subject
@@ -75,7 +75,7 @@ function makePlots(testSubjectID) {
 function displayMetaData(testSubjectID){
     var metadatabox = d3.select("#sample-metadata");
     
-    data = d3.json(url).then(data => { 
+    data = d3.json('..data//samples.json').then(data => { 
         //get metadata 
         var metadata = data.metadata
         //filter by selected test subject
