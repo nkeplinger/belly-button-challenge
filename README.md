@@ -12,12 +12,12 @@ Objectives of this project were:
 * Update all the plots when a new sample is selected.
 
 See all completed requirements in the following code: 
-``
+`/belly-button-challenge/StarterCode/static/js/app.js`
 See properly formatted .html file:
-``
+`/belly-button-challenge/StarterCode/index.html`
 
-See Dashboard screen shot below (found at ``):
+See Dashboard screen shot below (found at `belly-button-challenge/blob/main/Bellbutton_dahsboard_screenshot.png`):
 
-![Belly Button Dashboard](Images/example.png)
+![Belly Button Dashboard](https://github.com/nkeplinger/belly-button-challenge/blob/main/Bellbutton_dahsboard_screenshot.png)
 
 ###Thanks -Nioclette
