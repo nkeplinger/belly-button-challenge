@@ -1,4 +1,4 @@
-# Analysis of Microbial Bellybutton Diversity
+# Analysis of Microbial Belly Button Diversity
 Using JavaScript to create an interactive dashboard 
 
 
