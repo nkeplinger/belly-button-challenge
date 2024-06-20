@@ -1,4 +1,4 @@
-# belly-button-challenge
+# Analysis of Microbial Bellybutton Diversity
 Using JavaScript to create an interactive dashboard 
 
 
